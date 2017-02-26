@@ -1,4 +1,3 @@
-
 'use strict';
 
 var path = require('path');
@@ -63,13 +62,13 @@ module.exports = {
 
   module: {
     // Runs before loaders
-    preLoaders: [
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        loader: 'eslint'
-      }
-    ],
+    // preLoaders: [
+    //   {
+    //     test: /\.js$/,
+    //     exclude: /node_modules/,
+    //     loader: 'eslint'
+    //   }
+    // ],
     // loaders handle the assets, like transforming sass to css or jsx to js.
     loaders: [
       {
@@ -97,6 +96,13 @@ module.exports = {
           modules: true,
           localIdentName: '[name]__[local]___[hash:base64:5]'
         }
+      },
+      {
+        test: /\.(png|jpg|jpeg|gif)$/,
+        loader: 'url-loader',
+        options: {
+          limit: 100000,
+        },
       },
       {
         test: /\.woff(2)?(\?[a-z0-9#=&.]+)?$/,

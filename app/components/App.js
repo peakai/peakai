@@ -8,14 +8,11 @@ import '../dist/css/normalize.css';
 import '../dist/css/foundation.min.css';
 import '../dist/css/main.css';
 
-
-
 const App = ({children}) =>
     <main>
       <Header />
 
       { children }
-
 
       <footer>
         <div className="row">
@@ -68,7 +65,6 @@ const App = ({children}) =>
 
     </main>
   ;
-
 
 App.propTypes = {
   children: PropTypes.object

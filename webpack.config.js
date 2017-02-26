@@ -30,6 +30,9 @@ module.exports = {
       'process.env.NODE_ENV': JSON.stringify('development')
     })
   ],
+  externals: {
+    "jquery": "jQuery"
+  },
   eslint: {
     configFile: '.eslintrc',
     failOnWarning: false,

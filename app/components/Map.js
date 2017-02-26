@@ -1,27 +1,27 @@
-let map_wrapper = 'map_container';
-let longitude = 55.168571;
-let latitude = -4.057392;
+const mapWrapper = 'map_container';
+const longitude = 55.168571;
+const latitude = -4.057392;
 
-let markers = [
+const markers = [
   {
     long: 56.7968571,
     lat: -5.0057392,
-    title: "Ben Nevis"
+    title: 'Ben Nevis'
   },
   {
     long: 54.4542261,
     lat: -3.2137907,
-    title: "Scafell Pike"
+    title: 'Scafell Pike'
   },
   {
     long: 53.0685072,
     lat: -4.0784653,
-    title: "Snowdon"
+    title: 'Snowdon'
   },
-]
+];
 
 function initialize() {
-  let mapOptions = {
+  const mapOptions = {
     zoom: 6,
     center: new google.maps.LatLng(longitude, latitude),
     mapTypeId: google.maps.MapTypeId.ROADMAP,
@@ -33,24 +33,21 @@ function initialize() {
     }
   };
 
-  let map = new google.maps.Map(document.getElementById(map_wrapper), mapOptions);
+  const map = new google.maps.Map(document.getElementById(mapWrapper), mapOptions);
 
   markers.map((mountain) => {
-    let marker = new google.maps.Marker({
+    const marker = new google.maps.Marker({
       position: new google.maps.LatLng(mountain.long, mountain.lat),
       map: map,
-      icon: "dist/marker.png"
+      icon: require('../dist/img/marker.png')
     });
 
-    let infowindow = new google.maps.InfoWindow({
+    const infowindow = new google.maps.InfoWindow({
       content: mountain.title
     });
 
-    google.maps.event.addListener(marker, 'click', function () {
-      infowindow.open(map, marker);
-    });
+    google.maps.event.addListener(marker, 'click', () => infowindow.open(map, marker));
   });
-
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
