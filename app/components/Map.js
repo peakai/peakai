@@ -22,7 +22,7 @@ let markers = [
 
 function initialize() {
   let mapOptions = {
-    zoom: 7,
+    zoom: 6,
     center: new google.maps.LatLng(longitude, latitude),
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     mapTypeControl: false,

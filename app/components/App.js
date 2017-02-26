@@ -4,10 +4,10 @@ import {Header} from './Header.js';
 
 import {footer} from '../styles/footer.scss';
 
-// import {active} from '../styles/main.scss';
 import '../dist/css/normalize.css';
 import '../dist/css/foundation.min.css';
 import '../dist/css/main.css';
+
 
 
 const App = ({children}) =>

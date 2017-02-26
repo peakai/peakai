@@ -2,26 +2,10 @@ import React from 'react';
 import {Link} from 'react-router';
 import {footer} from '../styles/footer.scss';
 import './Map.js';
+import {typeformWrapper} from '../styles/main.scss';
 
 const Home = () =>
     <main>
-
-      <section className="services">
-        <div className="row">
-          <h1 className="mean_title">Our Mission</h1>
-          <p>PeakStartup is on a mission to connect London’s tech community through adventure
-            and adversity. Through better networks of some of Europe’s most ambitious people
-            we can solve some of the world’s most pressing challenges. We do so whilst helping
-            humans in need by supoprt international development through the Deworm The World
-            Initiaitive and other Effective Altruism charities. Conquering Britain’s Three
-            Peaks in a day and is just the start.</p>
-
-          <h3>Contact</h3>
-
-          <p>Contact <a href="mailto:jordan@peakstartup.co">jordan@peakstartup.co</a> if
-            you’re interested in finding out more or can think of some other way to help.</p>
-        </div>
-      </section>
 
       <section className="services" id="services">
 
@@ -29,7 +13,30 @@ const Home = () =>
           <img className="logo-img" src={require('../images/logoblue.png')}/>
 
           <h1 className="mean_title">Take part in the challenge</h1>
-          <h2 className="sub_title">29<sup>th</sup>-30<sup>th</sup> April 2017</h2>
+          <h2 className="sub_title">Three Peaks – 29<sup>th</sup>-30<sup>th</sup> April 2017</h2>
+
+          <h1 className="mean_title">Our Mission</h1>
+          <p>
+            We believe technology and AI has the capability of solving the world's most pressing
+            challenges,
+            but a limiting factor is connecting the able and willing minds together.
+            Networking sucks, but adversity and challenge brings people together to make lasting bonds
+            and great memories.</p>
+
+          <p>PeakStartup is on a mission to connect London’s AI and tech community through shared
+            adventure. We support humans in need by raising money for international development through the Deworm The
+            World Initiative. Conquering Britain’s Three Peaks in 24 hours is just the start.</p>
+
+        </div>
+      </section>
+
+      <section className="services">
+        <div className="row">
+
+          <h3>Contact</h3>
+
+          <p>Contact <a href="mailto:jordan@peakstartup.co">jordan@peakstartup.co</a> if
+            you’re interested in finding out more or can think of some other way to help.</p>
         </div>
       </section>
 
@@ -48,11 +55,7 @@ const Home = () =>
           <h1 className="title">Join the adventure</h1>
           <h2 className="sub_title">Be part of something epic</h2>
 
-          <a href="#" className="btn_fancy">
-            <div className="solid_layer"></div>
-            <div className="border_layer"></div>
-            <div className="text_layer">Register!</div>
-          </a>
+          <iframe className="typeform-widget" src="https://jordan340.typeform.com/to/nbzkdS"></iframe>
 
         </div>
       </section>
@@ -66,5 +69,6 @@ const Home = () =>
       </section>
     </main>
   ;
+
 
 export default Home;
