@@ -81,7 +81,7 @@ module.exports = {
         loader: 'json'
       },
       {
-        test: /\.scss$/,
+        test: /\.s?css$/,
         // we extract the styles into their own .css file instead of having
         // them inside the js.
         loader: ExtractTextPlugin.extract('style', 'css?modules&localIdentName=[name]---[local]---[hash:base64:5]!sass')
@@ -91,11 +91,7 @@ module.exports = {
         loader: 'style-loader'
       }, {
         test: /\.css$/,
-        loader: 'css-loader',
-        query: {
-          modules: true,
-          localIdentName: '[name]__[local]___[hash:base64:5]'
-        }
+        loader: ExtractTextPlugin.extract('css', 'css?modules&localIdentName=[name]---[local]---[hash:base64:5]'),
       },
       {
         test: /\.(png|jpg|jpeg|gif)$/,
