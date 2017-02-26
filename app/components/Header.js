@@ -12,7 +12,7 @@ const Header = () =>
           <ul className="title-area">
             <li className="name">
 
-              <a href="#" className="logo">
+              <a href="/" className="logo">
                 <h1>
                   PeakStartup<span className="tld">.co</span></h1>
               </a>
@@ -39,7 +39,7 @@ const Header = () =>
     <section className="caption">
       <div className="row">
         <h1 className="mean_cap">Put down your laptop</h1>
-        <h2 className="sub_cap">Less Is More.</h2>
+        <h2 className="sub_cap">adventure.</h2>
         <a href="#" className="btn_details"><span>More Details</span>
           <img src={require('../dist/img/btn_arrow.png')} className="arrow"/></a>
       </div>

@@ -9,7 +9,7 @@ import '../dist/css/normalize.css';
 import '../dist/css/foundation.min.css';
 import '../dist/css/main.css';
 
-import '../dist/js/jquery.js';
+
 const App = ({children}) =>
     <main>
       <Header />
@@ -57,7 +57,6 @@ const App = ({children}) =>
         </div>
       </footer>
 
-
       <a href="#" className="btn_fancy" id="back_top">
         <div className="solid_layer"></div>
         <div className="border_layer"></div>
@@ -70,14 +69,6 @@ const App = ({children}) =>
     </main>
   ;
 
-// import '../dist/js/touchSwipe.min.js';
-// import '../dist/js/easing.js';
-// import '../dist/js/foundation.min.js';
-// import '../dist/js/foundation/foundation.topbar.js';
-// import '../dist/js/carouFredSel.js';
-// import '../dist/js/scrollTo.js';
-// import '../dist/js/map.js';
-// import '../dist/js/main.js';
 
 App.propTypes = {
   children: PropTypes.object
