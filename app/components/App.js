@@ -23,10 +23,6 @@ const App = ({children}) =>
                 <h1>peakstartup<span className="tld">.co</span></h1>
               </a>
               <p>Copyright © 2017 Peak Startup.</p>
-              <p><Link to="/" activeClassName="active">Home</Link></p>
-
-              <p><Link to="/about" activeClassName="active">About</Link></p>
-
             </div>
           </div>
 

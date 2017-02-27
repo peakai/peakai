@@ -14,7 +14,7 @@ const Home = () =>
 
           <h1 className="mean_title">Take part in the challenge</h1>
           <h2 className="sub_title">Three Peaks – 29<sup>th</sup>-30<sup>th</sup> April 2017</h2>
-
+          <br />
           <h1 className="mean_title">Our Mission</h1>
           <p>
             We believe technology and AI has the capability of solving the world's most pressing

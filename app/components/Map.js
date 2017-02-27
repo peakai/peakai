@@ -6,17 +6,21 @@ const markers = [
   {
     long: 56.7968571,
     lat: -5.0057392,
-    title: 'Ben Nevis'
+    title: 'Ben Nevis',
+    height: 1345
+
   },
   {
     long: 54.4542261,
     lat: -3.2137907,
-    title: 'Scafell Pike'
+    title: 'Scafell Pike',
+    height: 978
   },
   {
     long: 53.0685072,
     lat: -4.0784653,
-    title: 'Snowdon'
+    title: 'Snowdon',
+    height: 1085
   },
 ];
 
@@ -43,7 +47,7 @@ function initialize() {
     });
 
     const infowindow = new google.maps.InfoWindow({
-      content: mountain.title
+      content: mountain.title + '<br>' + mountain.height + ' m'
     });
 
     google.maps.event.addListener(marker, 'click', () => infowindow.open(map, marker));
