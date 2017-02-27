@@ -25,8 +25,9 @@ const Header = () =>
           <section className="top-bar-section" id="mean_nav">
             <ul className="right">
               <li><Link to="/" activeClassName="active">Home</Link></li>
-              <li><Link to="/about" activeClassName="active">About</Link></li>
-              <li><a href="#about">About</a></li>
+              <li><a href="#mission">About</a></li>
+                <li><a href="#challenge">The challenge</a></li>
+
               <li><a href="https://medium.com/peakstartup">Blog</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
@@ -38,8 +39,8 @@ const Header = () =>
 
     <section className="caption">
       <div className="row">
-        <h1 className="mean_cap">Put down your laptop</h1>
-        <h2 className="sub_cap">adventure.</h2>
+        <h1 className="mean_cap">Close your laptop</h1>
+        <h2 className="sub_cap">Complete the challenge</h2>
         <a href="#" className="btn_details"><span>More Details</span>
           <img src={require('../dist/img/btn_arrow.png')} className="arrow"/></a>
       </div>

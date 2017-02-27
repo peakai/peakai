@@ -299,6 +299,7 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover {
 }
 
 .services .mean_title {
+    margin-top: 1em;
     font-size: 30px;
     font-family: "raleway-bold", Helvetica, Arial, sans-serif;
     font-weight: bold;
@@ -328,6 +329,15 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover {
     line-height: 30px;
 }
 
+.services  p {
+    color: #454545;
+    font-family: "raleway-regular", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    margin: 0.6em;
+    line-height: 1.8;
+}
+
+
 .services .title {
     color: #454545;
     font-family: "raleway-bold", Helvetica, Arial, sans-serif;
@@ -342,7 +352,9 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover {
 }
 
 .services .btn_fancy {
-    margin-top: 100px;
+    margin: 20px auto;
+    display: block;
+    width: 18em;
 }
 
 /*    Fancy Button    */
