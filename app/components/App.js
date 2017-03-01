@@ -38,7 +38,7 @@ const App = ({children}) =>
 
               <div className="contact">
                 <div className="details">
-                  <p>jordan@peakstartup.co</p>
+                  <p>Say hi  <br/> <a href="mailto:team@peakstartup.co">team@peakstartup.co</a></p>
                 </div>
 
                 <p className="address">

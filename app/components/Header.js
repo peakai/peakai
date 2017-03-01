@@ -39,9 +39,9 @@ const Header = () =>
 
     <section className="caption">
       <div className="row">
-        <h1 className="mean_cap">Close your laptop</h1>
-        <h2 className="sub_cap">Complete the challenge</h2>
-        <a href="#" className="btn_details"><span>More Details</span>
+        <h1 className="mean_cap">Put down your laptop</h1>
+        <h2 className="sub_cap">Join the challenge</h2>
+        <a href="#mission" className="btn_details"><span>More Details</span>
           <img src={require('../dist/img/btn_arrow.png')} className="arrow"/></a>
       </div>
     </section>

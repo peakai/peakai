@@ -308,8 +308,8 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover {
 
 .services .sub_title {
     font-size: 22px;
-    font-family: "raleway-light", Helvetica, Arial, sans-serif;
-    font-weight: lighter;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    margin-bottom: 2em;
     /*text-transform: lowercase;*/
 }
 
@@ -324,19 +324,26 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover {
 
 .services .services_list p {
     color: #454545;
-    font-family: "raleway-regular", Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-size: 1.1em;
     line-height: 30px;
 }
 
-.services  p {
+.services p {
     color: #454545;
-    font-family: "raleway-regular", Helvetica, Arial, sans-serif;
-    font-size: 18px;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
     margin: 0.6em;
     line-height: 1.8;
 }
 
+.services .bottom {
+    text-align: center;
+    margin: 4.5em auto -3.5em;
+}
+.services .bottom a {
+    font-weight: 700;
+}
 
 .services .title {
     color: #454545;
@@ -352,7 +359,6 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover {
 }
 
 .services .btn_fancy {
-    margin: 20px auto;
     display: block;
     width: 18em;
 }
@@ -616,10 +622,8 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover {
 
 .cta .sub_title {
     color: #454545;
-    font-family: "raleway-light", Helvetica, Arial, sans-serif;
-    font-weight: lighter;
-    font-size: 18px;
-    text-transform: lowercase;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-size: 1.8em;
 }
 
 .cta .btn_fancy {
@@ -647,16 +651,6 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover {
     max-width: none;
 }
 
-.map .shadow {
-    width: 100%;
-    height: 158px;
-    background: url('../img/shadow.png') repeat-x;
-    position: absolute;
-    bottom: -1px;
-    left: 0;
-    z-index: 90;
-}
-
 #map_container .map_contacts {
     color: #454545;
 }
@@ -665,6 +659,24 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover {
     font-family: "raleway-bold", Helvetica, Arial, sans-serif;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+/* Final section */
+.penultimate {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+}
+
+.penultimate .shadow {
+    width: 100%;
+    height: 158px;
+    background: url('../img/shadow.png') repeat-x;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    z-index: 90;
 }
 
 /*    Footer    */
@@ -705,7 +717,8 @@ footer .social ul li {
 }
 
 footer .social ul li a,
-footer .contact {
+footer .contact,
+footer .contact a {
     display: inline-block;
     color: #fff;
     font-family: "raleway-regular", Helvetica, Arial, sans-serif;
@@ -833,4 +846,132 @@ footer p {
     display: block;
     width: 100%;
     height: 800px;
+}
+
+/* Mail chimp */
+/* MailChimp Form Embed Code - Horizontal Super Slim - 12/16/2015 v10.7
+Adapted from: http://blog.heyimcat.com/universal-signup-form/ */
+
+#mc_embed_signup form {
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.mc-field-group {
+    display: inline-block;
+}
+
+/* positions input field horizontally */
+#mc_embed_signup input.email {
+    font-size: 15px;
+    border: 1px solid #ABB0B2;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #343434;
+    background-color: #fff;
+    box-sizing: border-box;
+    height: 32px;
+    padding: 0px 0.4em;
+    display: inline-block;
+    margin: 0;
+    width: 350px;
+    vertical-align: top;
+}
+
+#mc_embed_signup label {
+    display: block;
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+#mc_embed_signup .clear {
+    display: inline-block;
+}
+
+/* positions button horizontally in line with input */
+#mc_embed_signup .button {
+    font-size: 13px;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    letter-spacing: .03em;
+    color: #fff;
+    background-color: #aaa;
+    box-sizing: border-box;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 18px;
+    display: inline-block;
+    margin: 0;
+    transition: all 0.23s ease-in-out 0s;
+}
+
+#mc_embed_signup .button:hover {
+    background-color: #777;
+    cursor: pointer;
+}
+
+#mc_embed_signup div#mce-responses {
+    float: left;
+    top: -1.4em;
+    padding: 0em .5em 0em .5em;
+    overflow: hidden;
+    width: 90%;
+    margin: 0 5%;
+    clear: both;
+}
+
+#mc_embed_signup div.response {
+    margin: 1em 0;
+    padding: 1em .5em .5em 0;
+    font-weight: bold;
+    float: left;
+    top: -1.5em;
+    z-index: 1;
+    width: 80%;
+}
+
+#mc_embed_signup #mce-error-response {
+    display: none;
+}
+
+#mc_embed_signup #mce-success-response {
+    color: #529214;
+    display: none;
+}
+
+#mc_embed_signup label.error {
+    display: block;
+    float: none;
+    width: auto;
+    margin-left: 1.05em;
+    text-align: left;
+    padding: .5em 0;
+}
+
+@media (max-width: 768px) {
+    #mc_embed_signup input.email {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    #mc_embed_signup .clear {
+        display: block;
+        width: 100%
+    }
+
+    #mc_embed_signup .button {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+#mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    width: 100%;
 }
