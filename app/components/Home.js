@@ -11,7 +11,8 @@ const Home = () =>
 
         <div className="row">
           <h1 className="mean_title">Our Mission</h1>
-          <h2 className="sub_title">To connect London's AI and tech community</h2>
+          <h2 className="sub_title">To connect London's AI and tech community for the good of
+            humanity.</h2>
           <p>We believe technology and AI has the capability of solving the world's most pressing
             challenges – but only if the the right people come together. Networking sucks, but
             taking on a shared challenge brings people together to make lasting bonds and great
@@ -31,20 +32,33 @@ const Home = () =>
         </div>
       </section>
 
-      <section className="services" id="mission">
+      <section className="services" id="challenge">
         <div className="row">
           <img className="logo-img" src={require('../images/logoblue.png')}/>
           <h1 className="mean_title">Take part in the challenge</h1>
-          <h2 className="sub_title">Three Peaks — 29<sup>th</sup>-30<sup>th</sup> April 2017</h2>
-          <p>The Three Peaks Challenge involves climbing the three highest peaks in England, Wales
-            and Scotland, within 24 hours.</p>
-          <p>Apply to take part, alongside 25 of London's most ambitious tech entrepreneurs, AI
-            researchers and VC investors.</p>
+          <h2 className="sub_title">29<sup>th</sup>-30<sup>th</sup> April 2017 <br/>Three Peaks
+            Challenge</h2>
+          <p>The Three Peaks Challenge involves climbing* the three highest peaks in England, Wales
+            and Scotland, within 24 hours. PeakStartup aims to accomplish this challenge with 24 of
+            London's most ambitious tech entrepreneurs, AI research and VC investors.</p>
+
+          <p>You'll need to a reasonable level of fitness to take part, but preparation (and social)
+            events will take place beforehand.
+            Transportation, awesome tee shirts and a celebratory afterparty will be provided to the
+            legends that take part.
+          </p>
+
+          <p>We do this to raise money for Against Malaria Foundation - an Effective Altruism endorsed
+            charity.
+            For every £3000 we raise, we statistically likely to have saved a human life. How awesome
+            is that?</p>
+
+          <p className="footnote"><sup>*</sup>It's more like a fast-paced walk.</p>
         </div>
       </section>
 
 
-      <section className="map" id="connect">
+      <section className="map" id="map">
         <div id="map_container"></div>
       </section>
 
@@ -52,7 +66,7 @@ const Home = () =>
         <div className="row">
 
           <h1 className="title">Join the adventure</h1>
-          <h2 className="sub_title">Apply to join the challenge and accomplish something awesome.</h2>
+          <h2 className="sub_title">Join the challenge and accomplish something awesome</h2>
 
           <iframe className="typeform-widget" src="https://jordan340.typeform.com/to/nbzkdS"></iframe>
 
@@ -60,13 +74,13 @@ const Home = () =>
       </section>
 
 
-      <section className="services" id="services">
+      <section className="services" id="contact">
 
         <div className="row">
 
-          <h1 className="mean_title">Not ready to sign up?</h1>
-          <h2 className="sub_title">Subscribe below to keep updated on any planned events you may want
-            to join</h2>
+          <h1 className="sub_title">Not ready to sign up?</h1>
+          <p className="centered">Subscribe below to keep updated on any planned events you may want
+            to join</p>
 
           <div id="mc_embed_signup">
             <form
@@ -88,8 +102,10 @@ const Home = () =>
             </form>
           </div>
 
-          <p className="bottom">If you have any ideas to help, contact Jordan at <a href="mailto:team@peakstartup.co">
-            team@peakstartup.co</a>
+          <p className="bottom">If you have any suggestions, or wish to sponsor the
+            event,<br/> contact Jordan at <a
+              href="mailto:team@peakstartup.co">
+              team@peakstartup.co</a>
           </p>
         </div>
       </section>
@@ -107,6 +123,5 @@ const Home = () =>
 
     </main>
   ;
-
 
 export default Home;
