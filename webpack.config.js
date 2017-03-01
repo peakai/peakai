@@ -3,6 +3,7 @@
 var path = require('path');
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+let FaviconsWebpackPlugin = require('favicons-webpack-plugin')
 
 module.exports = {
   devtool: 'eval-source-map',
@@ -28,7 +29,8 @@ module.exports = {
     new webpack.NoErrorsPlugin(),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify('development')
-    })
+    }),
+    new FaviconsWebpackPlugin('./app/images/logoblue.png')
   ],
   externals: {
     "jquery": "jQuery"
