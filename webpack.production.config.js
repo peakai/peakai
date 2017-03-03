@@ -52,7 +52,7 @@ module.exports = {
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify('production')
     }),
-    new FaviconsWebpackPlugin('./app/images/logoblue.png')
+    new FaviconsWebpackPlugin('./app/images/peakai_blue.png')
   ],
 
   // ESLint options

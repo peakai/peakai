@@ -30,7 +30,7 @@ module.exports = {
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify('development')
     }),
-    new FaviconsWebpackPlugin('./app/images/logoblue.png')
+    new FaviconsWebpackPlugin('./app/images/peakai_blue.png')
   ],
   externals: {
     "jquery": "jQuery"

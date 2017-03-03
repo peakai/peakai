@@ -18,11 +18,20 @@ const Home = () =>
             taking on a shared challenge brings people together to make lasting bonds and great
             memories.</p>
 
-          <p>PeakStartup is on a mission to connect London’s AI and tech community through shared
+          <p>PeakAI is on a mission to connect London’s AI and tech community through shared
             adventure. We support humans in need by raising money for international development
-            through Against Malaria Foundation and Effective Altruism Charities. Our first
-            challenge is to conquer Britain’s Three Peaks in 24 hours and it takes place in Spring
+            through Against Malaria Foundation. Our first challenge is to conquer Britain’s Three
+            Peaks in 24 hours and it takes place in Spring
             2017.</p>
+
+          {/*<p>About the charity:*/}
+          {/*<img src={require('../images/amf_logo.png')} alt="Against Malaria Foundation logo"/>*/}
+          {/*Against Malaria Foundation provides long-life bed nets for developing countries.*/}
+          {/*Continuously picked as Give Well (the ranking by Effective Altruism) as the top Charity in*/}
+          {/*the years 2012, 2013, 2015, 2016 for being one of the most effective charities. Despite*/}
+          {/*the attention, they are still in a funding deficit due to expansion to previously unserved*/}
+          {/*countries. For each £2,850 donated, AMF probabilistically saves one human life.*/}
+          {/*</p>*/}
 
           <a href="#apply" className="btn_fancy bottom">
             <div className="solid_layer"></div>
@@ -34,24 +43,26 @@ const Home = () =>
 
       <section className="services" id="challenge">
         <div className="row">
-          <img className="logo-img" src={require('../images/logoblue.png')}/>
+          <img className="logo-img" src={require('../images/peakai_blue.png')}/>
           <h1 className="mean_title">Take part in the challenge</h1>
           <h2 className="sub_title">29<sup>th</sup>-30<sup>th</sup> April 2017 <br/>Three Peaks
             Challenge</h2>
           <p>The Three Peaks Challenge involves climbing* the three highest peaks in England, Wales
-            and Scotland, within 24 hours. PeakStartup aims to accomplish this challenge with 24 of
-            London's most ambitious tech entrepreneurs, AI research and VC investors.</p>
+            and Scotland, within 24 hours. PeakAI aims to accomplish this challenge with twenty four
+            of
+            London's most ambitious tech entrepreneurs, AI researcher and VC investors.</p>
 
           <p>You'll need to a reasonable level of fitness to take part, but preparation (and social)
             events will take place beforehand.
-            Transportation, awesome tee shirts and a celebratory afterparty will be provided to the
+            Transportation, awesome tee shirts and a celebratory after party will be provided to the
             legends that take part.
           </p>
 
-          <p>We do this to raise money for Against Malaria Foundation - an Effective Altruism endorsed
-            charity.
-            For every £3000 we raise, we statistically likely to have saved a human life. How awesome
-            is that?</p>
+          <p>We do this to raise money for Against Malaria Foundation – one of the top-rated
+            charities by Give Well. Due to an expansion to
+            previously unserved countries they have a donation shortfall, and all the money raised has
+            high leverage on lives saved. Statistically for each £2950 we raise, a human life is saved.
+            How awesome is that?</p>
 
           <p className="footnote"><sup>*</sup>It's more like a fast-paced walk.</p>
         </div>
@@ -104,8 +115,8 @@ const Home = () =>
 
           <p className="bottom">If you have any suggestions, or wish to sponsor the
             event,<br/> contact Jordan at <a
-              href="mailto:team@peakstartup.co">
-              team@peakstartup.co</a>
+              href="mailto:team@peakai.org">
+              team@peakai.org</a>
           </p>
         </div>
       </section>

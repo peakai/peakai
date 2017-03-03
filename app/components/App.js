@@ -20,9 +20,9 @@ const App = ({children}) =>
           <div className="small-12 medium-4 large-4 columns">
             <div className="copyrights">
               <a className="logo" href="#">
-                <h1>peakstartup<span className="tld">.co</span></h1>
+                <h1>P<span className="smallCaps">eak</span>AI<span className="tld">.org</span></h1>
               </a>
-              <p>Copyright © 2017 Peak Startup.</p>
+              <p>Copyright © 2017 Peak AI.</p>
             </div>
           </div>
 
@@ -30,15 +30,15 @@ const App = ({children}) =>
             <div className="contact_details right">
               <nav className="social">
                 <ul className="no-bullet">
-                  <li><a href="http://twitter.com/peak_startup" target="_blank">Twitter</a></li>
-                  <li><a href="http://facebook.com/peak_startup" target="_blank">Facebook</a></li>
-                  <li><a href="http://instagram.com/peak_startup" target="_blank">Instagram</a></li>
+                  <li><a href="http://twitter.com/peak_ai" target="_blank">Twitter</a></li>
+                  <li><a href="http://facebook.com/PeakAIorg" target="_blank">Facebook</a></li>
+                  <li><a href="http://instagram.com/peak_ai" target="_blank">Instagram</a></li>
                 </ul>
               </nav>
 
               <div className="contact">
                 <div className="details">
-                  <p>Say hi  <br/> <a href="mailto:team@peakstartup.co">team@peakstartup.co</a></p>
+                  <p>Say hi  <br/> <a href="mailto:team@peakai.org">team@peakai.org</a></p>
                 </div>
 
                 <p className="address">

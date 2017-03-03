@@ -13,8 +13,7 @@ const Header = () =>
             <li className="name">
 
               <a href="/" className="logo">
-                <h1>
-                  PeakStartup<span className="tld">.co</span></h1>
+                <h1>P<span className="smallCaps">eak</span>AI<span className="tld">.org</span></h1>
               </a>
             </li>
             <li>
