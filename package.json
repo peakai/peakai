@@ -1,9 +1,9 @@
 {
-  "name": "peakstartup",
+  "name": "PeakAI.org",
   "version": "1.0.0",
   "description": "Website using react, redux and react-router with the help of webpack.",
   "main": "index.js",
-  "repository": "https://github.com/jordn/peakstartup.git",
+  "repository": "https://github.com/jordn/peakai.git",
   "scripts": {
     "test": "",
     "start": "node server",
