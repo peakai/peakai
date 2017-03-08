@@ -13,7 +13,7 @@ const Home = () =>
           <h1 className="mean_title">Our Mission</h1>
           <h2 className="sub_title">To connect London's AI and tech community for the good of
             humanity.</h2>
-          <p>We believe technology and AI has the capability of solving the world's most pressing
+          <p>We believe technology and artificial intelligence (AI) has the capability of solving the world's most pressing
             challenges – but only if the the right people come together. Networking sucks, but
             taking on a shared challenge brings people together to make lasting bonds and great
             memories.</p>
