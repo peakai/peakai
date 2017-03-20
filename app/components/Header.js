@@ -28,7 +28,7 @@ const Header = () =>
               <li><a href="#challenge">The Challenge</a></li>
               <li><a href="#apply">Join</a></li>
               <li><a href="#contact">Contact</a></li>
-              <li><a href="https://medium.com/peakstartup">Blog</a></li>
+              <li><a href="https://medium.com/peakai">Blog</a></li>
             </ul>
           </section>
 
