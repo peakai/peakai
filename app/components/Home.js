@@ -1,8 +1,8 @@
-import React from 'react';
-import {Link} from 'react-router';
-import {footer} from '../styles/footer.scss';
-import './Map.js';
-import {typeformWrapper} from '../styles/main.scss';
+import React from "react";
+import {Link} from "react-router";
+import {footer} from "../styles/footer.scss";
+import "./Map.js";
+import {typeformWrapper} from "../styles/main.scss";
 
 const Home = () =>
     <main>
@@ -13,7 +13,8 @@ const Home = () =>
           <h1 className="mean_title">Our Mission</h1>
           <h2 className="sub_title">To connect London's AI and tech community for the good of
             humanity.</h2>
-          <p>We believe technology and artificial intelligence (AI) has the capability of solving the world's most pressing
+          <p>We believe technology and artificial intelligence (AI) has the capability of solving the
+            world's most pressing
             challenges – but only if the the right people come together. Networking sucks, but
             taking on a shared challenge brings people together to make lasting bonds and great
             memories.</p>
@@ -23,15 +24,6 @@ const Home = () =>
             through Against Malaria Foundation. Our first challenge is to conquer Britain’s Three
             Peaks in 24 hours and it takes place in Spring
             2017.</p>
-
-          {/*<p>About the charity:*/}
-          {/*<img src={require('../images/amf_logo.png')} alt="Against Malaria Foundation logo"/>*/}
-          {/*Against Malaria Foundation provides long-life bed nets for developing countries.*/}
-          {/*Continuously picked as Give Well (the ranking by Effective Altruism) as the top Charity in*/}
-          {/*the years 2012, 2013, 2015, 2016 for being one of the most effective charities. Despite*/}
-          {/*the attention, they are still in a funding deficit due to expansion to previously unserved*/}
-          {/*countries. For each £2,850 donated, AMF probabilistically saves one human life.*/}
-          {/*</p>*/}
 
           <a href="#apply" className="btn_fancy bottom">
             <div className="solid_layer"></div>
@@ -61,7 +53,8 @@ const Home = () =>
           <p>We do this to raise money for Against Malaria Foundation – one of the top-rated
             charities by Give Well. Due to an expansion to
             previously unserved countries they have a donation shortfall, and all the money raised has
-            high leverage on lives saved. Statistically for each £2950 we raise, a human life is saved.
+            high leverage on lives saved. Statistically for each £2950 we raise, a human life is
+            saved.
             How awesome is that?</p>
 
           <p className="footnote"><sup>*</sup>It's more like a fast-paced walk.</p>
@@ -88,6 +81,40 @@ const Home = () =>
       <section className="services" id="contact">
 
         <div className="row">
+
+          <h1 className="mean_title">About The Charity</h1>
+          <h2 className="sub_title">Against Malaria Foundation</h2>
+
+          <img className="amf-logo" src={require('../images/amf_logo.png')}
+               alt="Against Malaria Foundation logo"/>
+          <p>
+            Against Malaria Foundation provides long-life bed nets for developing countries.
+            Continuously picked as Give Well (the ranking by Effective Altruism) as the top Charity in
+            the years 2012, 2013, 2015, 2016 for being one of the most effective charities. Despite
+            the attention, they are still in a funding deficit due to expansion to previously unserved
+            countries. For each £2,850 donated, AMF probabilistically saves one human life.
+          </p>
+            <h2 className="mean_title">Supported By</h2>
+          <div className="medium-6 columns">
+            <a href="http://joinef.com">
+              <img className="supporters-logo" src={require('../images/eflogowide.png')}
+                   alt="Entrepreneur First"/>
+            </a>
+          </div>
+          <div className="medium-6 columns">
+            <a href="http://bloomsbury.ai">
+              <img className="supporters-logo bloomsbury"
+                   src={require('../images/bloomsburylogo.png')} alt="Bloomsbury AI"/></a>
+          </div>
+        </div>
+
+      </section>
+
+
+      <section className="services" id="contact">
+
+        <div className="row">
+
 
           <h1 className="sub_title">Not ready to sign up?</h1>
           <p className="centered">Subscribe below to keep updated on any planned events you may want

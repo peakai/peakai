@@ -38,8 +38,8 @@ const Header = () =>
 
     <section className="lead">
       <div className="row">
-        <h1 className="mean_cap">Put down your laptop</h1>
-        <h2 className="sub_cap">Join the challenge</h2>
+        <h1 className="mean_cap">AI TAKES ON THE THREE PEAKS</h1>
+        <h2 className="sub_cap">29<sup>th</sup>-30<sup>th</sup> April 2017</h2>
         <a href="#mission" className="btn_details"><span>More Details</span>
           <img src={require('../dist/img/btn_arrow.png')} className="arrow"/></a>
       </div>
