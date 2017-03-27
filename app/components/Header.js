@@ -23,12 +23,11 @@ const Header = () =>
 
           <section className="top-bar-section" id="mean_nav">
             <ul className="right">
-              <li><Link to="/" activeClassName="active">Home</Link></li>
-              <li><a href="#mission">The Mission</a></li>
+              <li><a href="#mission">Mission</a></li>
               <li><a href="#challenge">The Challenge</a></li>
-              <li><a href="#apply">Join</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="#apply">Apply</a></li>
               <li><a href="https://medium.com/peakai">Blog</a></li>
+              <li><a href="https://www.againstmalaria.com/peakai">Donate</a></li>
             </ul>
           </section>
 
