@@ -44,7 +44,7 @@ const Header = () =>
       </div>
     </section>
 
-    <div className="caption"><span>View from Mt Snowdon</span><span className="credit">credit: WalkUpSnowdon.co.uk</span>
+    <div className="caption"><span>View from Mt Snowdon.</span><span className="credit">credit: WalkUpSnowdon.co.uk</span>
     </div>
   </section>;
 
