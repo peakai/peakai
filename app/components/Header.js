@@ -37,7 +37,7 @@ const Header = () =>
 
     <section className="lead">
       <div className="row">
-        <h1 className="mean_cap">STOCHASTIC GRADIENT ASCENT</h1>
+        <h1 className="mean_cap">STOCHASTIC GRADIENT ASCENT.</h1>
         <h2 className="sub_cap">Join the 2018 Peak AI challenge</h2>
         <a href="#mission" className="btn_details"><span>More Details</span>
           <img src={require('../dist/img/btn_arrow.png')} className="arrow"/></a>
